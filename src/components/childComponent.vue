@@ -1,5 +1,11 @@
-<template></template>
+<template>
+    <div>
+        <h3>{{ message }}</h3>
+    </div>
+</template>
 
 <script setup>
-// import ... from './components/{...}.vue';
+defineProps({
+    message: String,
+});
 </script>

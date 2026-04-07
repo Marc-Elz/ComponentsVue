@@ -1,5 +1,7 @@
 <script setup>
-// import ... from './components/{...}.vue';
+import parentComponent from './components/parentComponent.vue';
 </script>
 
-<template></template>
+<template>
+    <parentComponent />
+</template>
