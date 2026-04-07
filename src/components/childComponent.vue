@@ -6,10 +6,12 @@
 </template>
 
 <script setup>
+// Props
 defineProps({
     message: String,
 });
 
+// emit
 const emit = defineEmits(['updateMessage']);
 
 const emitEvent = () => {
