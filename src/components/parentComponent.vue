@@ -12,6 +12,5 @@ const message = ref('');
 
 const handleMessage = newMessage => {
     message.value = newMessage;
-    console.log('Hallo?');
 };
 </script>
